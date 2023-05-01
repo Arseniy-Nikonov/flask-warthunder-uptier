@@ -27,7 +27,7 @@ except OSError:
 # a simple page that says hello
 @application.route('/')
 def index():
-    return 'Index page'
+    return 'Test CI/CD'
 @application.route('/hello')
 def hello():
     return 'Hello, World!'
